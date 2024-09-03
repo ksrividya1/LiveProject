@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="com.srividya.automation.runner.TestRunner" time="45.332" tests="10" errors="1" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="com.srividya.automation.runner.TestRunner" time="36.222" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value=".\chromedriver\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\kotip\Downloads\eclipse-jee-2023-03-R-win32-x86_64 (1)\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\kotip\AppData\Local\Temp\surefire11858972961089988214\surefirebooter-20240903172403007_3.jar C:\Users\kotip\AppData\Local\Temp\surefire11858972961089988214 2024-09-03T17-24-02_832-jvmRun1 surefire-20240903172403007_1tmp surefire_0-20240903172403007_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\kotip\AppData\Local\Temp\surefire9074337022575870062\surefirebooter-20240903180548704_3.jar C:\Users\kotip\AppData\Local\Temp\surefire9074337022575870062 2024-09-03T18-05-48_562-jvmRun1 surefire-20240903180548704_1tmp surefire_0-20240903180548704_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\kotip\study\Testing-workspace\LiveScratch\target\test-classes;C:\Users\kotip\study\Testing-workspace\LiveScratch\target\classes;C:\Users\kotip\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\kotip\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\kotip\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\kotip\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\kotip\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;C:\Users\kotip\.m2\repository\io\cucumber\cucumber-junit\7.18.1\cucumber-junit-7.18.1.jar;C:\Users\kotip\.m2\repository\io\cucumber\cucumber-core\7.18.1\cucumber-core-7.18.1.jar;C:\Users\kotip\.m2\repository\io\cucumber\cucumber-gherkin\7.18.1\cucumber-gherkin-7.18.1.jar;C:\Users\kotip\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.1\cucumber-gherkin-messages-7.18.1.jar;C:\Users\kotip\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\kotip\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\kotip\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\kotip\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\kotip\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\kotip\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\kotip\.m2\repository\io\cucumber\datatable\7.18.1\datatable-7.18.1.jar;C:\Users\kotip\.m2\repository\io\cucumber\cucumber-plugin\7.18.1\cucumber-plugin-7.18.1.jar;C:\Users\kotip\.m2\repository\io\cucumber\docstring\7.18.1\docstring-7.18.1.jar;C:\Users\kotip\.m2\repository\io\cucumber\html-formatter\21.4.1\html-formatter-21.4.1.jar;C:\Users\kotip\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\kotip\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\kotip\.m2\repository\io\cucumber\cucumber-java\7.18.1\cucumber-java-7.18.1.jar;C:\Users\kotip\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\kotip\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\kotip\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\kotip\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\kotip\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\kotip\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\kotip\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\kotip\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\kotip\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\kotip\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\kotip\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\kotip\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\kotip\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\kotip\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\kotip\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\kotip\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\kotip\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\kotip\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\kotip\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\kotip\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\kotip\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\kotip\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\kotip\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\kotip\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\kotip\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\kotip\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\kotip\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.1\jackson-mapper-asl-1.9.1.jar;C:\Users\kotip\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\kotip\.m2\repository\io\github\bonigarcia\webdrivermanager\2.2.2\webdrivermanager-2.2.2.jar;C:\Users\kotip\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\kotip\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\kotip\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\kotip\.m2\repository\org\rauschig\jarchivelib\0.7.1\jarchivelib-0.7.1.jar;C:\Users\kotip\.m2\repository\org\apache\commons\commons-compress\1.9\commons-compress-1.9.jar;C:\Users\kotip\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\kotip\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\kotip\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\kotip\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.52.0\selenium-htmlunit-driver-2.52.0.jar;C:\Users\kotip\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.18\htmlunit-2.18.jar;C:\Users\kotip\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\kotip\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\kotip\.m2\repository\org\apache\httpcomponents\httpmime\4.5\httpmime-4.5.jar;C:\Users\kotip\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.17\htmlunit-core-js-2.17.jar;C:\Users\kotip\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\kotip\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\kotip\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.22\nekohtml-1.9.22.jar;C:\Users\kotip\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.16\cssparser-0.9.16.jar;C:\Users\kotip\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\kotip\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.12.v20150709\websocket-client-9.2.12.v20150709.jar;C:\Users\kotip\.m2\repository\org\eclipse\jetty\jetty-util\9.2.12.v20150709\jetty-util-9.2.12.v20150709.jar;C:\Users\kotip\.m2\repository\org\eclipse\jetty\jetty-io\9.2.12.v20150709\jetty-io-9.2.12.v20150709.jar;C:\Users\kotip\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.12.v20150709\websocket-common-9.2.12.v20150709.jar;C:\Users\kotip\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.12.v20150709\websocket-api-9.2.12.v20150709.jar;C:\Users\kotip\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\kotip\AppData\Local\Temp\surefire11858972961089988214\surefirebooter-20240903172403007_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\kotip\AppData\Local\Temp\surefire9074337022575870062\surefirebooter-20240903180548704_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.6+10"/>
@@ -59,185 +59,153 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Verify user is able to login with valid credentials" classname="Login Fucntionality Scenarios" time="6.509">
-    <system-out><![CDATA[2024-09-03 17:24:04 [INFO ] [Hooks] - [setup] Scenario Started: Verify user is able to login with valid credentials
-2024-09-03 17:24:04 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
-2024-09-03 17:24:06 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started169370778
-2024-09-03 17:24:10 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify user is able to login with valid credentials
-2024-09-03 17:24:10 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: PASSED
+  <testcase name="Verify user is able to login with valid credentials" classname="Login Fucntionality Scenarios" time="4.76">
+    <system-out><![CDATA[2024-09-03 18:05:50 [INFO ] [Hooks] - [setup] Scenario Started: Verify user is able to login with valid credentials
+2024-09-03 18:05:50 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 18:05:51 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1738784081
+2024-09-03 18:05:54 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify user is able to login with valid credentials
+2024-09-03 18:05:54 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: PASSED
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 32866
+    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 23787
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 32866.
-Sep 03, 2024 5:24:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 23787.
+Sep 03, 2024 6:05:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Verify whether the User is not able to login with invalid credentials" classname="Login Fucntionality Scenarios" time="4.371">
-    <system-out><![CDATA[2024-09-03 17:24:11 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the User is not able to login with invalid credentials
-2024-09-03 17:24:11 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
-2024-09-03 17:24:12 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started556662073
-2024-09-03 17:24:15 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is not able to login with invalid credentials
-2024-09-03 17:24:15 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: PASSED
+  <testcase name="Verify whether the User is not able to login with invalid credentials" classname="Login Fucntionality Scenarios" time="3.052">
+    <system-out><![CDATA[2024-09-03 18:05:54 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the User is not able to login with invalid credentials
+2024-09-03 18:05:54 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 18:05:55 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started779051277
+2024-09-03 18:05:57 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is not able to login with invalid credentials
+2024-09-03 18:05:57 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: PASSED
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 6944
+    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 9000
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 6944.
-Sep 03, 2024 5:24:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 9000.
+Sep 03, 2024 6:05:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Verify whether the User is not able to login without providing credentials" classname="Login Fucntionality Scenarios" time="3.544">
-    <system-out><![CDATA[2024-09-03 17:24:15 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the User is not able to login without providing credentials
-2024-09-03 17:24:15 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
-2024-09-03 17:24:16 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1152487396
-2024-09-03 17:24:18 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is not able to login without providing credentials
-2024-09-03 17:24:18 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: PASSED
+  <testcase name="Verify whether the User is not able to login without providing credentials" classname="Login Fucntionality Scenarios" time="3.101">
+    <system-out><![CDATA[2024-09-03 18:05:57 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the User is not able to login without providing credentials
+2024-09-03 18:05:57 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 18:05:58 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1913386579
+2024-09-03 18:06:00 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is not able to login without providing credentials
+2024-09-03 18:06:00 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: PASSED
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 18451
+    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 62009
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 18451.
-Sep 03, 2024 5:24:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 62009.
+Sep 03, 2024 6:05:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Verify whether the User is able to reset the forgotten password" classname="Login Fucntionality Scenarios" time="4.736">
-    <failure message="expected:&lt;[Warning: The E-Mail Address was not found in our records, please try again!]&gt; but was:&lt;[An email with a confirmation link has been sent your email address.]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Warning: The E-Mail Address was not found in our records, please try again!]> but was:<[An email with a confirmation link has been sent your email address.]>
-	at com.srividya.automation.stepDefinition.LoginApp.i_should_see_a_message_informing_the_user_that_information_related_to_restting_password_have_been_sent_to_email_address(LoginApp.java:61)
-	at ✽.I should see a message informing the User that information related to restting password have been sent to email address(classpath:FeatureFiles/LoginApp.feature:29)
-]]></failure>
-    <system-out><![CDATA[2024-09-03 17:24:18 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the User is able to reset the forgotten password
-2024-09-03 17:24:18 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
-2024-09-03 17:24:19 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1821581506
-2024-09-03 17:24:23 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is able to reset the forgotten password
-2024-09-03 17:24:23 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: FAILED
+  <testcase name="Verify whether the User is able to reset the forgotten password" classname="Login Fucntionality Scenarios" time="3.563">
+    <system-out><![CDATA[2024-09-03 18:06:01 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the User is able to reset the forgotten password
+2024-09-03 18:06:01 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 18:06:01 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started721671471
+2024-09-03 18:06:04 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is able to reset the forgotten password
+2024-09-03 18:06:04 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: PASSED
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 59757
+    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 63398
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 59757.
-Sep 03, 2024 5:24:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 63398.
+Sep 03, 2024 6:06:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Verify whether the user is able to register into the application by providing all the fields" classname="Registraition functionality scenarios" time="4.833">
-    <system-out><![CDATA[2024-09-03 17:24:23 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
-2024-09-03 17:24:23 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
-2024-09-03 17:24:24 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1687702287
-2024-09-03 17:24:28 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the fields
-2024-09-03 17:24:28 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: PASSED
+  <testcase name="Verify whether the user is able to register into the application by providing all the fields" classname="Registraition functionality scenarios" time="3.839">
+    <system-out><![CDATA[2024-09-03 18:06:04 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2024-09-03 18:06:04 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 18:06:05 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started503879157
+2024-09-03 18:06:08 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the fields
+2024-09-03 18:06:08 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: PASSED
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 11626
+    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 45145
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 11626.
-Sep 03, 2024 5:24:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 45145.
+Sep 03, 2024 6:06:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Verify user is not allowed to Register on skipping mandatory fields" classname="Registraition functionality scenarios" time="3.744">
-    <system-out><![CDATA[2024-09-03 17:24:28 [INFO ] [Hooks] - [setup] Scenario Started: Verify user is not allowed to Register on skipping mandatory fields
-2024-09-03 17:24:28 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
-2024-09-03 17:24:29 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1593245055
-2024-09-03 17:24:32 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify user is not allowed to Register on skipping mandatory fields
-2024-09-03 17:24:32 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: PASSED
+  <testcase name="Verify user is not allowed to Register on skipping mandatory fields" classname="Registraition functionality scenarios" time="2.918">
+    <system-out><![CDATA[2024-09-03 18:06:08 [INFO ] [Hooks] - [setup] Scenario Started: Verify user is not allowed to Register on skipping mandatory fields
+2024-09-03 18:06:08 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 18:06:09 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started233309087
+2024-09-03 18:06:11 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify user is not allowed to Register on skipping mandatory fields
+2024-09-03 18:06:11 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: PASSED
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 23333
+    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 6951
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 23333.
-Sep 03, 2024 5:24:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 6951.
+Sep 03, 2024 6:06:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Verify whether the user is able to register into the application by opting for Newsletter subscription" classname="Registraition functionality scenarios" time="5.086">
-    <system-out><![CDATA[2024-09-03 17:24:32 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the user is able to register into the application by opting for Newsletter subscription
-2024-09-03 17:24:32 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
-2024-09-03 17:24:33 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1798194863
-2024-09-03 17:24:37 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by opting for Newsletter subscription
-2024-09-03 17:24:37 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: PASSED
+  <testcase name="Verify whether the user is able to register into the application by opting for Newsletter subscription" classname="Registraition functionality scenarios" time="4.108">
+    <system-out><![CDATA[2024-09-03 18:06:11 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the user is able to register into the application by opting for Newsletter subscription
+2024-09-03 18:06:11 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 18:06:12 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1640832113
+2024-09-03 18:06:15 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by opting for Newsletter subscription
+2024-09-03 18:06:15 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: PASSED
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 11640
+    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 52612
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 11640.
-Sep 03, 2024 5:24:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 52612.
+Sep 03, 2024 6:06:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Verify whether the user is restricted from registring a duplicate account" classname="Registraition functionality scenarios" time="5.559">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;Warning&apos;)]&quot;}&#10;  (Session info: chrome=128.0.6613.114)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;SRIVIDYA&apos;, ip: &apos;192.168.29.159&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.114, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\kotip\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62470}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: aaa84100db92ebdc19b7f6a91ad992bc&#10;*** Element info: {Using=xpath, value=//div[contains(text(),&apos;Warning&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Warning')]"}
-  (Session info: chrome=128.0.6613.114)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'SRIVIDYA', ip: '192.168.29.159', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.114, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\kotip\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62470}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aaa84100db92ebdc19b7f6a91ad992bc
-*** Element info: {Using=xpath, value=//div[contains(text(),'Warning')]}
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy22.isDisplayed(Unknown Source)
-	at com.srividya.automation.stepDefinition.Registration.i_should_see_the_warning_message_stating_that_the_user_is_already_created(Registration.java:92)
-	at ✽.I should see the warning message stating that the user is already created(classpath:FeatureFiles/Registration.feature:51)
-]]></error>
-    <system-out><![CDATA[2024-09-03 17:24:37 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the user is restricted from registring a duplicate account
-2024-09-03 17:24:37 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
-2024-09-03 17:24:38 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1197535593
-2024-09-03 17:24:42 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is restricted from registring a duplicate account
-2024-09-03 17:24:42 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: FAILED
+  <testcase name="Verify whether the user is restricted from registring a duplicate account" classname="Registraition functionality scenarios" time="4.938">
+    <system-out><![CDATA[2024-09-03 18:06:15 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the user is restricted from registring a duplicate account
+2024-09-03 18:06:15 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 18:06:16 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started2054332292
+2024-09-03 18:06:20 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is restricted from registring a duplicate account
+2024-09-03 18:06:20 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: PASSED
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 25948
+    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 58047
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 25948.
-Sep 03, 2024 5:24:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 58047.
+Sep 03, 2024 6:06:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Verify whether the User is able to search for the products" classname="Search functionality scenarios" time="3.756">
-    <system-out><![CDATA[2024-09-03 17:24:42 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the User is able to search for the products
-2024-09-03 17:24:42 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
-2024-09-03 17:24:43 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1198515856
-2024-09-03 17:24:46 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is able to search for the products
-2024-09-03 17:24:46 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: PASSED
+  <testcase name="Verify whether the User is able to search for the products" classname="Search functionality scenarios" time="2.917">
+    <system-out><![CDATA[2024-09-03 18:06:20 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the User is able to search for the products
+2024-09-03 18:06:20 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 18:06:21 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started886386381
+2024-09-03 18:06:23 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is able to search for the products
+2024-09-03 18:06:23 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: PASSED
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 63443
+    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 7424
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 63443.
-Sep 03, 2024 5:24:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 7424.
+Sep 03, 2024 6:06:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Verify whether the User is informed when the product being searched is not available" classname="Search functionality scenarios" time="2.908">
-    <system-out><![CDATA[2024-09-03 17:24:46 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the User is informed when the product being searched is not available
-2024-09-03 17:24:46 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
-2024-09-03 17:24:47 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started143999341
-2024-09-03 17:24:49 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is informed when the product being searched is not available
-2024-09-03 17:24:49 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: PASSED
+  <testcase name="Verify whether the User is informed when the product being searched is not available" classname="Search functionality scenarios" time="2.795">
+    <system-out><![CDATA[2024-09-03 18:06:23 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the User is informed when the product being searched is not available
+2024-09-03 18:06:23 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 18:06:24 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started792195577
+2024-09-03 18:06:25 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is informed when the product being searched is not available
+2024-09-03 18:06:25 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: PASSED
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 15582
+    <system-err><![CDATA[Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 33720
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 15582.
-Sep 03, 2024 5:24:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 33720.
+Sep 03, 2024 6:06:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

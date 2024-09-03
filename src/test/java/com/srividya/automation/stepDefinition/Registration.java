@@ -77,7 +77,7 @@ public class Registration {
 	@When("^I provide the below duplicate details into the fields$")
 	public void i_provide_the_below_duplicate_details_into_the_fields(DataTable dataTable) {
 	  
-		for(Map<String,String> field: dataTable.asMaps(String.class, String.class)) {
+			Map<String,String> field=dataTable.asMap(String.class, String.class);
 			register.firstName().sendKeys(field.get("FirstName"));
 			register.lastName().sendKeys(field.get("LastName"));
 			register.email().sendKeys(field.get("Email"));
@@ -85,7 +85,7 @@ public class Registration {
 			register.password().sendKeys(field.get("Password"));
 			register.confirmPassword().sendKeys(field.get("Password"));			
 						
-		}
+		
 	}
 	@Then("^I should see the warning message stating that the user is already created$")
 	public void i_should_see_the_warning_message_stating_that_the_user_is_already_created() {

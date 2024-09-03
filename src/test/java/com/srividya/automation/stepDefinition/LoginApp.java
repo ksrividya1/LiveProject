@@ -11,7 +11,8 @@ import com.srividya.automation.pages.ForgettenPasswordPage;
 
 import io.cucumber.java.en.*;
 
-
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginApp {
 	
@@ -46,6 +47,8 @@ public class LoginApp {
 
 	@Then("I should see an error message that the credentails are invalid")
 	public void i_should_see_an_error_message_that_the_credentails_are_invalid() {
+		WebDriverWait wait=new WebDriverWait(Base.driver,10);
+		wait.until(ExpectedConditions.visibilityOf(loginAppPage.mainWarning));
 	    Assert.assertEquals(loginAppPage.mainWarning.getText(), "Warning: No match for E-Mail Address and/or Password.");
 	}
 
