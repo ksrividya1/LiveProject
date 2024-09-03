@@ -6,7 +6,7 @@ import java.util.Properties;
 import com.srividya.automation.util.PathHelper;
 
 public class PropertyFileReader implements ConfigurationReader {
-	
+
 	Properties properties;
 
 	public PropertyFileReader() {
@@ -20,13 +20,26 @@ public class PropertyFileReader implements ConfigurationReader {
 	}
 
 	public String getUrl() {
-		
+
 		return properties.getProperty("url");
 	}
 
 	public String getBrowser() {
-				
+
 		return properties.getProperty("browser");
 	}
+	public String getProduct() {
+
+		return properties.getProperty("product");
+	}
+	public String getUsername() {
+
+		return properties.getProperty("username");
+	}
+	public String getPassword() {
+
+		return properties.getProperty("password");
+	}
+
 
 }

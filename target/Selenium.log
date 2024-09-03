@@ -284,3 +284,18 @@
 2024-09-03 16:01:53 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started254955665
 2024-09-03 16:01:55 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is informed when the product being searched is not available
 2024-09-03 16:01:55 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: PASSED
+2024-09-03 16:17:13 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the User is able to place orders
+2024-09-03 16:17:13 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 16:17:15 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started472234151
+2024-09-03 16:17:15 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is able to place orders
+2024-09-03 16:17:15 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: UNDEFINED
+2024-09-03 16:45:35 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the User is able to place orders
+2024-09-03 16:45:35 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 16:45:37 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started437630857
+2024-09-03 16:45:39 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is able to place orders
+2024-09-03 16:45:39 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: FAILED
+2024-09-03 16:47:36 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the User is able to place orders
+2024-09-03 16:47:36 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 16:47:37 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1568949719
+2024-09-03 16:47:41 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is able to place orders
+2024-09-03 16:47:41 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: FAILED
