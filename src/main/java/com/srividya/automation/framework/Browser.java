@@ -2,6 +2,8 @@ package com.srividya.automation.framework;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -57,6 +59,27 @@ public class Browser {
 	public static void maximize() {
 		Base.driver.manage().window().maximize();
 		
+	}
+
+	
+	
+	public static void openApplicationURL() {
+		
+		Base.driver.get(Base.reader.getUrl());
+		
+	}
+
+	public static byte[] takeScreenshot() {
+		try {
+			return ((TakesScreenshot)Base.driver).getScreenshotAs(OutputType.BYTES);
+		}
+		catch(Exception e){
+			log.info("Exception has Occured while taking screenshot");
+			return null;
+		}
+
+		
+
 	}
 
 }

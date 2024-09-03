@@ -6,13 +6,12 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.srividya.automation.base.Base;
 
-public class AccountSuccessPage {
+public class MyAccountPage {
 	
-	public AccountSuccessPage() {
+	public MyAccountPage() {
 		PageFactory.initElements(Base.driver, this);
 	}
 	
-	@FindBy(xpath="//a[contains(text(),'Success')]")
-	public static WebElement breadCrumbSuccess;
-
+	@FindBy(linkText="Register for an affiliate account")
+	public static WebElement linkAffliatedAccount;
 }

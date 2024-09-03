@@ -2,15 +2,15 @@ package com.srividya.automation.runner;
 
 import org.junit.runner.RunWith;
 
-import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import io.cucumber.junit.Cucumber;
+
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-	features= {"classpath:FeatureFiles/Registration.feature"},
+	features= {"classpath:FeatureFiles/Registration.feature","classpath:FeatureFiles/LoginApp.feature","classpath:FeatureFiles/Search.feature"},
 	glue= {"classpath:Registration.java"},
-	tags= {"@Register"},
-	plugin= {"html:target/Cucmber_html_report"}
+	plugin={"html:target/cucumber_html_report"}
 )
 public class Runner {
 

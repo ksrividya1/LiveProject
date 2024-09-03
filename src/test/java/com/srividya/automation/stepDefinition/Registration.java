@@ -8,14 +8,14 @@ import com.srividya.automation.base.Base;
 import com.srividya.automation.pages.AccountSuccessPage;
 import com.srividya.automation.pages.HeaderSection;
 import com.srividya.automation.pages.RegisterPage;
-
-import cucumber.api.DataTable;
-import cucumber.api.java.en.*;
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java.en.*;
 
 
 public class Registration {
-	HeaderSection header;
-	RegisterPage register;
+	HeaderSection header=new HeaderSection();
+	RegisterPage register=new RegisterPage();
+	AccountSuccessPage accountSuccessPage= new AccountSuccessPage();
 	
 	@Given("I launch the application")
 	public void i_launch_the_application() {
@@ -25,7 +25,6 @@ public class Registration {
 
 	@Given("^I navigate to Account Registration page$")
 	public void i_navigate_to_Account_Registration_page() {
-		header=new HeaderSection();
 	   header.MyAccountLink().click();
 	   header.RegisterLink().click();
 	}
@@ -33,15 +32,14 @@ public class Registration {
 	@When("^I provide all the below valid details$")
 	public void i_provide_all_the_below_valid_details(DataTable dataTable) {
 		
-		for(Map<String,String> field: dataTable.asMaps(String.class, String.class)) {
+		Map<String,String> field = dataTable.asMap(String.class,String.class);
 			register.firstName().sendKeys(field.get("FirstName"));
 			register.lastName().sendKeys(field.get("LastName"));
 			register.email().sendKeys(System.currentTimeMillis()+field.get("Email"));
 			register.telephone().sendKeys(field.get("Telephone"));
 			register.password().sendKeys(field.get("Password"));
 			register.confirmPassword().sendKeys(field.get("Password"));			
-						
-		}
+					
 	    
 	}
 
@@ -58,7 +56,7 @@ public class Registration {
 
 	@Then("^I should see that the User Account has successfully created$")
 	public void i_should_see_that_the_User_Account_has_successfully_created() {
-		Assert.assertTrue(AccountSuccessPage.breadCrumbSuccess.isDisplayed());
+		Assert.assertTrue(accountSuccessPage.breadCrumbSuccess.isDisplayed());
 	}
 
 	@Then("^I should see that the User Account has NOT created$")

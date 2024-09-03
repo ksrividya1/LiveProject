@@ -9,8 +9,11 @@ import com.srividya.automation.config.PropertyFileReader;
 import com.srividya.automation.framework.Browser;
 import com.srividya.automation.util.PathHelper;
 
-import cucumber.api.Scenario;
-import cucumber.api.java.Before;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
+
+
 
 public class Hooks {
 	
@@ -24,5 +27,16 @@ public class Hooks {
 		Browser.startBrowser();
 		Browser.maximize();
 	} 
+	
+	@After
+	public void closeBrowser(Scenario scenario){
+		if(scenario.isFailed()){
+			scenario.attach(Browser.takeScreenshot(), "png",System.currentTimeMillis()+" Screenshot");
+		}
+		log.info("Scenario Completed: "+scenario.getName());
+		log.info("Scenario Status is: "+scenario.getStatus());
+		Base.driver.quit();
+	}
+	
 
 }
