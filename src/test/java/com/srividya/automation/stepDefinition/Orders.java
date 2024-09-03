@@ -41,18 +41,18 @@ public class Orders {
 
 	@When("I place an order")
 	public void i_place_an_order() {
-		// checkoutPage.continueButtonOfBillingDetailsSection.click();
-		// checkoutPage.continueButtonOFDeliveryDetailsSection.click();
-		// checkoutPage.continueButtofOfDeliveryMethodSection.click();
-		// checkoutPage.termsAndConditionsCheckbox.click();
-		// checkoutPage.continueButtonOfPaymentMethodSection.click();
-		// checkoutPage.confirmOrderButton.click();
+//		checkoutPage.continueButtonOfBillingDetailsSection.click();
+//		checkoutPage.continueButtonOFDeliveryDetailsSection.click();
+//		checkoutPage.continueButtofOfDeliveryMethodSection.click();
+//		checkoutPage.termsAndConditionsCheckbox.click();
+//		checkoutPage.continueButtonOfPaymentMethodSection.click();
+//		checkoutPage.confirmOrderButton.click();
 	}
 
 	@Then("I should see that the order is placed successfuly")
 	public void i_should_see_that_the_order_is_placed_successfuly() {
-		// WebDriverWait wait=new WebDriverWait(Base.driver,10);
-		// wait.until(ExpectedConditions.visibilityOf(orderSuccessPage.successBreadcrumb));
+//		WebDriverWait wait=new WebDriverWait(Base.driver,10);
+//		wait.until(ExpectedConditions.visibilityOf(orderSuccessPage.successBreadcrumb));
 	}
 
 

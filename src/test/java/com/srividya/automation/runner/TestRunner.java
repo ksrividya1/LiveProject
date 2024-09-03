@@ -8,10 +8,10 @@ import io.cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-	features= {"classpath:FeatureFiles/Registration.feature","classpath:FeatureFiles/LoginApp.feature","classpath:FeatureFiles/Search.feature","classpath:FeatureFiles/Orders.feature"},
-	glue= {"classpath:Registration.java"},
+	features= {"classpath:FeatureFiles/Registration.feature","classpath:FeatureFiles/LoginApp.feature","classpath:FeatureFiles/Search.feature"},
+	glue= {"classpath:com.srividya.automation.stepDefinition"},
 	plugin={"html:target/cucumber_html_report"}
 )
-public class Runner {
+public class TestRunner {
 
 }
