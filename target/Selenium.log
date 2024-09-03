@@ -1,0 +1,41 @@
+2024-09-02 16:43:02 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2024-09-02 16:43:39 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2024-09-02 16:44:22 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2024-09-02 16:44:22 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-02 16:44:23 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started195163481
+2024-09-02 16:45:33 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2024-09-02 16:45:33 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-02 16:45:34 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started195163481
+2024-09-02 19:43:27 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2024-09-02 19:43:27 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-02 19:43:29 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1884422865
+2024-09-02 19:44:55 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2024-09-02 19:44:55 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-02 19:44:56 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started195163481
+2024-09-03 09:47:58 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2024-09-03 09:47:58 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 09:48:01 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started817490653
+2024-09-03 09:48:01 [INFO ] [Hooks] - [setup] Scenario Started: Verify user is not allowed to Register on skipping mandatory fields
+2024-09-03 09:48:01 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 09:48:02 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1953290071
+2024-09-03 10:37:48 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2024-09-03 10:37:48 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 10:37:50 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1323514615
+2024-09-03 10:37:51 [INFO ] [Hooks] - [setup] Scenario Started: Verify user is not allowed to Register on skipping mandatory fields
+2024-09-03 10:37:51 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 10:37:51 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1859153769
+2024-09-03 10:37:51 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the user is able to register into the application by opting for Newsletter subscription
+2024-09-03 10:37:51 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 10:37:53 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started182678201
+2024-09-03 10:46:41 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the user is able to register into the application by providing all the fields
+2024-09-03 10:46:41 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 10:46:43 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started406358588
+2024-09-03 10:46:44 [INFO ] [Hooks] - [setup] Scenario Started: Verify user is not allowed to Register on skipping mandatory fields
+2024-09-03 10:46:44 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 10:46:44 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started1365163763
+2024-09-03 10:46:44 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the user is able to register into the application by opting for Newsletter subscription
+2024-09-03 10:46:44 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 10:46:46 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started2008666311
+2024-09-03 10:46:46 [INFO ] [Hooks] - [setup] Scenario Started: Verify whether the user is restricted from registring a duplicate account
+2024-09-03 10:46:46 [INFO ] [Browser] - [startBrowser] Selected browser is chrome
+2024-09-03 10:46:47 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started227100877
